@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name | CS Student & Software Engineer",
+  title: "Adam Haris | CS Student & Software Engineer",
   description: "Computer Science student passionate about software engineering, AI, and building innovative solutions. View my projects, skills, and experience.",
   keywords: ["software engineer", "computer science", "portfolio", "developer", "AI", "machine learning"],
   authors: [{ name: "Your Name" }],
