@@ -69,7 +69,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm flex items-center justify-center gap-1">
-            © {currentYear} Made with <FiHeart className="w-4 h-4 text-red-500" /> by Your Name
+            © {currentYear} Made with <FiHeart className="w-4 h-4 text-red-500" /> by Adam Haris
           </p>
         </div>
       </div>
