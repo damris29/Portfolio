@@ -10,7 +10,8 @@ const educationData = {
   university: 'Universiti Teknologi PETRONAS',
   location: 'Seri Iskandar, Perak',
   period: '2024 - 2027 (Expected)',
-  gpa: '3.48/4.0',
+  currentStatus: '2nd Year, 2nd Semester',
+  gpa: '3.6/4.0',
   coursework: [
     'Data Structures & Algorithms',
     'Operating Systems',
@@ -45,7 +46,10 @@ export function Education() {
           {/* Main info */}
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-8">
             <div>
-              <h3 className="text-xl md:text-2xl font-bold mb-2">{educationData.degree}</h3>
+              <div className="flex flex-wrap items-center gap-3 mb-2">
+                <h3 className="text-xl md:text-2xl font-bold">{educationData.degree}</h3>
+                <Badge variant="accent">{educationData.currentStatus}</Badge>
+              </div>
               <p className="text-lg text-primary-400 font-medium mb-2">{educationData.university}</p>
               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                 <span className="flex items-center gap-1">
