@@ -37,7 +37,7 @@ export const projectsData: Project[] = [
   techStack: ['Visual Basic Application (VBA)', 'MySQL'],
   categories: ['Full-Stack', 'Database'],
   githubUrl: undefined,
-  imageUrl: 'public\projects\image\EcoSort.png',
+  imageUrl: '/projects/image/EcoSort.png',
   featured: false,
   },
   {
@@ -54,7 +54,7 @@ export const projectsData: Project[] = [
   techStack: ['Java', 'JavaFX', 'Scene Builder'],
   categories: ['Full-Stack'],
   githubUrl: 'https://github.com/damris29/BudgetBuddy',
-  imageUrl: 'public\projects\image\BudgetBuddy.png',
+  imageUrl: '/projects/image/BudgetBuddy.png',
   featured: true,
   },
   {
@@ -71,7 +71,7 @@ export const projectsData: Project[] = [
   techStack: ['JavaScript', 'HTML', 'CSS'],
   categories: ['Full-Stack'],
   githubUrl: 'https://github.com/damris29/Sort-Wars',
-  imageUrl: 'public\projects\image\SortWars.png',
+  imageUrl: '/projects/image/SortWars.png',
   featured: false,
   },
 ];
