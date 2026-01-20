@@ -35,7 +35,7 @@ export const projectsData: Project[] = [
   solution: 'Developed a prototype application using Visual Basic Application (VBA) and MySQL to manage recyclable item collection. The system allows users to record recyclable items, calculates rewards based on item type and weight, and supports a middleman workflow to deliver collected items to recycling centers.',
   learnings: 'Gained hands-on experience in full stack development, database design and management with MySQL, implementing business logic and application functions in VBA, and collaborating on UI design to ensure a smooth and user-friendly experience.',
   techStack: ['Visual Basic Application (VBA)', 'MySQL'],
-  categories: ['Sustainability', 'Full Stack', 'Database'],
+  categories: ['Full-Stack', 'Database'],
   githubUrl: undefined,
   featured: false,
   },
@@ -51,10 +51,10 @@ export const projectsData: Project[] = [
   learnings:
     'Gained experience in building desktop applications using Java and JavaFX, applying object-oriented programming principles, designing user-friendly interfaces, and managing application logic and user interactions.',
   techStack: ['Java', 'JavaFX', 'Scene Builder'],
-  categories: ['Finance', 'Desktop Application', 'Software Engineering'],
+  categories: ['Full-Stack'],
   githubUrl: 'https://github.com/damris29/BudgetBuddy',
   featured: true,
   },
 ];
 
-export const projectCategories = ['All', 'AI/ML', 'Full-Stack', 'Mobile'];
+export const projectCategories = ['All', 'AI/ML', 'Full-Stack', 'Mobile', 'Database'];
