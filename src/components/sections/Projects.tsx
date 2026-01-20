@@ -19,11 +19,19 @@ function ProjectCard({ project, onClick }: { project: Project; onClick: () => vo
       className="bg-card border border-border rounded-xl overflow-hidden cursor-pointer group"
       onClick={onClick}
     >
-      {/* Image placeholder */}
+      {/* Project Image */}
       <div className="h-48 bg-gradient-to-br from-primary-500/20 to-accent-500/20 relative overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-4xl font-bold text-primary-400/30">{project.title[0]}</span>
-        </div>
+        {project.imageUrl ? (
+          <img
+            src={project.imageUrl}
+            alt={project.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span className="text-4xl font-bold text-primary-400/30">{project.title[0]}</span>
+          </div>
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent" />
         {project.featured && (
           <Badge variant="accent" className="absolute top-3 right-3">
@@ -104,7 +112,18 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="h-48 bg-gradient-to-br from-primary-500/30 to-accent-500/30 relative">
+        <div className="h-48 bg-gradient-to-br from-primary-500/30 to-accent-500/30 relative overflow-hidden">
+          {project.imageUrl ? (
+            <img
+              src={project.imageUrl}
+              alt={project.title}
+              className="w-full h-full object-cover"
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-6xl font-bold text-primary-400/30">{project.title[0]}</span>
+            </div>
+          )}
           <button
             onClick={onClose}
             className="absolute top-4 right-4 p-2 rounded-full bg-background/50 hover:bg-background text-foreground transition-colors"
@@ -112,9 +131,6 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
           >
             <FiX className="w-5 h-5" />
           </button>
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span className="text-6xl font-bold text-primary-400/30">{project.title[0]}</span>
-          </div>
         </div>
 
         {/* Content */}
