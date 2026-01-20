@@ -45,6 +45,7 @@ export const skillsData: SkillCategory[] = [
       { name: 'VM' },
       { name: 'Wireshark'},
       { name: 'Oracle'},
+      { name: 'JavaFX SceneBuilder'},
     ],
   },
   {
