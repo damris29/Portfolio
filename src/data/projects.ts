@@ -24,7 +24,7 @@ export const projectsData: Project[] = [
     learnings: 'Gained hands-on experience with Flutter cross-platform development, integrating AI/NLP APIs, implementing map and navigation features, building responsive UIs for both mobile and web, and handling state management in complex applications.',
     techStack: ['Dart', 'Flutter', 'Firebase', 'Google AI', 'Maps API'],
     categories: ['AI/ML', 'Mobile'],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/Nameless456/UTP-Smart-Campus-Assitant/tree/my-new-branch',
     featured: true,
   },
   {
