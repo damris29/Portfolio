@@ -94,14 +94,6 @@ portfolio/
 └── tsconfig.json
 ```
 
-## 🌐 Deployment
-
-This portfolio can be deployed on **Vercel** with zero configuration:
-
-1. Push your code to GitHub
-2. Import the repository on [Vercel](https://vercel.com)
-3. Deploy! 🎉
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
