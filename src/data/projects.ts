@@ -55,6 +55,22 @@ export const projectsData: Project[] = [
   githubUrl: 'https://github.com/damris29/BudgetBuddy',
   featured: true,
   },
+  {
+  id: 'sort-wars',
+  title: 'Sort-Wars',
+  description:
+    'An interactive visualization tool that demonstrates how Bubble Sort and Merge Sort algorithms work by animating the sorting of a movie list based on various criteria.',
+  problem:
+    'Understanding how sorting algorithms operate step-by-step can be difficult without a visual representation, making it hard for learners to grasp differences in behavior and performance.',
+  solution:
+    'Built a web-based application that visualizes Bubble Sort and Merge Sort in action. Users can sort a list of movies by title, director, rating, duration, or release date and watch how each algorithm processes the list, helping to compare performance and behavior visually.',
+  learnings:
+    'Improved skills in algorithm visualization and front-end development using JavaScript, HTML, and CSS. Enhanced understanding of sorting algorithm mechanics, UI design for interactive learning tools, and user experience focused on educational software.',
+  techStack: ['JavaScript', 'HTML', 'CSS'],
+  categories: ['Full-Stack'],
+  githubUrl: 'https://github.com/damris29/Sort-Wars',
+  featured: false,
+  },
 ];
 
 export const projectCategories = ['All', 'AI/ML', 'Full-Stack', 'Mobile', 'Database'];
